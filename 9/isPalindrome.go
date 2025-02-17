@@ -11,15 +11,15 @@ func isPalindrome(x int) bool {
 		return false
 	}
 	original := x
-	reverce := 0
+	reverse := 0
 
 	for x > 0 {
 		digit := x % 10
-		reverce = reverce*10 + digit
+		reverse = reverse*10 + digit
 		x /= 10
 	}
 
-	return reverce == original
+	return reverse == original
 }
 func main() {
 	x := 23
