@@ -14,6 +14,7 @@ func twoSum(nums []int, target int) []int {
 		hmap[num] = i
 	}
 	return nil
+
 }
 
 func main() {
